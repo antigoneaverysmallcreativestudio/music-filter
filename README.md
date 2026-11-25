@@ -2,7 +2,7 @@
 
 [Français](README.fr.md) · [User guide](Docs/USER-GUIDE.md) · [Version 1.0.0](Docs/RELEASE-v1.0.0.md)
 
-**For serious listeners.**
+**For serious listeners who want to exclude artists, albums and songs from Apple Music.**
 
 Apple Music recommendations can bring back songs or artists you would rather not hear. Music Filter adds a **personal exclusion list to Apple Music on your Mac**, automatically skipping the songs, albums and artists you choose. Its controls stay in the menu bar.
 
@@ -26,7 +26,11 @@ Designed by **Antigone, a very small creative studio.**
   <img src="Docs/Images/music-filter-exclusions-contexte-fr-v1.png" width="800" alt="Music Filter exclusions window in French, showing recent songs and the full exclusion list">
 </p>
 
-[Settings illustration](Docs/Images/music-filter-reglages-contexte-fr-v1.png) · [Recent exclusion and indicator](Docs/Images/music-filter-recent-contexte-fr-v1.png) · [Original English interface captures](Docs/Images/README.md)
+<p align="center">
+  <img src="Docs/Images/music-filter-recent-contexte-fr-v1.png" width="800" alt="Recent automatically excluded song and the red indicator in the menu bar">
+</p>
+
+[Original English interface captures](Docs/Images/README.md)
 
 ## Install and get started
 
@@ -51,6 +55,10 @@ French is used only when French is the Mac’s primary language. Every other pri
 Missing metadata prevents removal; an unconfirmed removal can pause anticipation. Normal filtering remains available. There is no guarantee of silence before every excluded song. Matching depends on the names and credits Music supplies, including collaboration credits.
 
 Music Filter works exclusively with the macOS Music app. It does not control iPhone or web playback, or other streaming services. Your exclusion rules stay on this Mac and are not synced to your Apple Music account. The app changes playback and, optionally, the upcoming queue, without editing your library or saved playlists. See the [user guide](Docs/USER-GUIDE.md) for permissions, daily use and experimental filtering.
+
+<p align="center">
+  <img src="Docs/Images/music-filter-reglages-contexte-fr-v1.png" width="720" alt="Music Filter settings showing automatic filtering, experimental anticipation and Start with Music">
+</p>
 
 ## Your list, your data
 
