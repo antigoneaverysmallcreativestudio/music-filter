@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<!-- Non-French system languages resolve to the English development resources,
+     even when French is a secondary preference. Only en/fr resources are shipped. -->
+<key>CFBundleLocalizations</key><array>
+  <string>aa</string><string>ab</string><string>ace</string><string>acf</string><string>ach</string><string>ada</string><string>ady</string><string>ae</string><string>aeb</string><string>af</string><string>afh</string><string>agq</string>
+  <string>ain</string><string>ak</string><string>akk</string><string>akz</string><string>ale</string><string>aln</string><string>alt</string><string>am</string><string>an</string><string>ang</string><string>anp</string><string>apw</string>
+  <string>ar</string><string>arc</string><string>arn</string><string>aro</string><string>arp</string><string>arq</string><string>ars</string><string>arw</string><string>ary</string><string>arz</string><string>as</string><string>asa</string>
+  <string>ase</string><string>ast</string><string>av</string><string>avk</string><string>awa</string><string>ay</string><string>az</string><string>ba</string><string>bal</string><string>ban</string><string>bar</string><string>bas</string>
+  <string>bax</string><string>bbc</string><string>bbj</string><string>be</string><string>bej</string><string>bem</string><string>ber</string><string>bew</string><string>bez</string><string>bfd</string><string>bfq</string><string>bg</string>
+  <string>bgc</string><string>bgn</string><string>bho</string><string>bi</string><string>bik</string><string>bin</string><string>bjn</string><string>bkm</string><string>bla</string><string>blo</string><string>bm</string><string>bn</string>
+  <string>bo</string><string>bpy</string><string>bqi</string><string>br</string><string>bra</string><string>brh</string><string>brx</string><string>bs</string><string>bss</string><string>bua</string><string>bug</string><string>bum</string>
+  <string>byn</string><string>byv</string><string>ca</string><string>cad</string><string>car</string><string>cay</string><string>cch</string><string>ccp</string><string>ce</string><string>ceb</string><string>cgg</string><string>ch</string>
+  <string>chb</string><string>chg</string><string>chk</string><string>chm</string><string>chn</string><string>cho</string><string>chp</string><string>chr</string><string>chy</string><string>cic</string><string>ckb</string><string>co</string>
+  <string>com</string><string>cop</string><string>cps</string><string>cr</string><string>crh</string><string>crj</string><string>crk</string><string>crl</string><string>crm</string><string>cs</string><string>csb</string><string>cst</string>
+  <string>csw</string><string>cu</string><string>cv</string><string>cwd</string><string>cy</string><string>da</string><string>dak</string><string>dar</string><string>dav</string><string>de</string><string>del</string><string>den</string>
+  <string>dgr</string><string>din</string><string>dje</string><string>doi</string><string>dsb</string><string>dtp</string><string>dua</string><string>dum</string><string>dv</string><string>dyo</string><string>dyu</string><string>dz</string>
+  <string>dzg</string><string>ebu</string><string>ee</string><string>efi</string><string>egl</string><string>egy</string><string>eka</string><string>el</string><string>elx</string><string>en</string><string>enm</string><string>eo</string>
+  <string>es</string><string>esu</string><string>et</string><string>eu</string><string>ewo</string><string>ext</string><string>fa</string><string>fan</string><string>fat</string><string>ff</string><string>fi</string><string>fil</string>
+  <string>fit</string><string>fj</string><string>fla</string><string>fo</string><string>fon</string><string>fr</string><string>frc</string><string>frm</string><string>fro</string><string>frp</string><string>frr</string><string>frs</string>
+  <string>fur</string><string>fy</string><string>ga</string><string>gaa</string><string>gag</string><string>gan</string><string>gay</string><string>gba</string><string>gbz</string><string>gcf</string><string>gd</string><string>gez</string>
+  <string>gil</string><string>gl</string><string>glk</string><string>gmh</string><string>gn</string><string>goh</string><string>gom</string><string>gon</string><string>gor</string><string>got</string><string>grb</string><string>grc</string>
+  <string>gsw</string><string>gu</string><string>guc</string><string>gur</string><string>guz</string><string>gv</string><string>gwi</string><string>ha</string><string>hai</string><string>hak</string><string>haw</string><string>hch</string>
+  <string>he</string><string>hi</string><string>hif</string><string>hil</string><string>hit</string><string>hmn</string><string>ho</string><string>hr</string><string>hsb</string><string>hsn</string><string>ht</string><string>hu</string>
+  <string>hup</string><string>hy</string><string>hz</string><string>ia</string><string>iba</string><string>ibb</string><string>id</string><string>ie</string><string>ig</string><string>ii</string><string>ik</string><string>ilo</string>
+  <string>inh</string><string>io</string><string>is</string><string>isc</string><string>it</string><string>iu</string><string>izh</string><string>ja</string><string>jam</string><string>jbo</string><string>jgo</string><string>jmc</string>
+  <string>jpr</string><string>jrb</string><string>jut</string><string>jv</string><string>ka</string><string>kaa</string><string>kab</string><string>kac</string><string>kaj</string><string>kam</string><string>kaw</string><string>kbd</string>
+  <string>kbl</string><string>kcg</string><string>kde</string><string>kea</string><string>ken</string><string>kfo</string><string>kg</string><string>kgp</string><string>kha</string><string>kho</string><string>khq</string><string>khw</string>
+  <string>ki</string><string>kio</string><string>kiu</string><string>kj</string><string>kk</string><string>kkj</string><string>kl</string><string>kln</string><string>km</string><string>kmb</string><string>kn</string><string>ko</string>
+  <string>koi</string><string>kok</string><string>kos</string><string>kpe</string><string>kr</string><string>krc</string><string>kri</string><string>krj</string><string>krl</string><string>kru</string><string>ks</string><string>ksb</string>
+  <string>ksf</string><string>ksh</string><string>ku</string><string>kum</string><string>kut</string><string>kv</string><string>kw</string><string>kxv</string><string>ky</string><string>la</string><string>lad</string><string>lag</string>
+  <string>lah</string><string>lam</string><string>lb</string><string>lez</string><string>lfn</string><string>lg</string><string>li</string><string>lij</string><string>liv</string><string>lkt</string><string>lmo</string><string>ln</string>
+  <string>lo</string><string>lol</string><string>loz</string><string>lrc</string><string>lt</string><string>ltg</string><string>lu</string><string>lua</string><string>lui</string><string>lun</string><string>luo</string><string>lus</string>
+  <string>lut</string><string>luy</string><string>lv</string><string>lzh</string><string>lzz</string><string>mad</string><string>maf</string><string>mag</string><string>mai</string><string>mak</string><string>man</string><string>mas</string>
+  <string>mde</string><string>mdf</string><string>mdh</string><string>mdr</string><string>men</string><string>mer</string><string>mfe</string><string>mg</string><string>mga</string><string>mgh</string><string>mgo</string><string>mh</string>
+  <string>mi</string><string>mic</string><string>mid</string><string>min</string><string>mis</string><string>mk</string><string>ml</string><string>mn</string><string>mnc</string><string>mni</string><string>moh</string><string>mos</string>
+  <string>mr</string><string>mrj</string><string>ms</string><string>mt</string><string>mua</string><string>mul</string><string>mus</string><string>mwl</string><string>mwr</string><string>mwv</string><string>my</string><string>mye</string>
+  <string>myv</string><string>mzn</string><string>na</string><string>nan</string><string>nap</string><string>naq</string><string>nb</string><string>nd</string><string>nds</string><string>ne</string><string>new</string><string>nez</string>
+  <string>ng</string><string>nia</string><string>niu</string><string>njo</string><string>nl</string><string>nmg</string><string>nn</string><string>nnh</string><string>nnp</string><string>no</string><string>nog</string><string>non</string>
+  <string>nov</string><string>nqo</string><string>nr</string><string>nso</string><string>nus</string><string>nv</string><string>nwc</string><string>ny</string><string>nym</string><string>nyn</string><string>nyo</string><string>nzi</string>
+  <string>oc</string><string>oj</string><string>om</string><string>or</string><string>os</string><string>osa</string><string>ota</string><string>otk</string><string>oui</string><string>pa</string><string>pag</string><string>pal</string>
+  <string>pam</string><string>pap</string><string>pau</string><string>pcd</string><string>pcm</string><string>pdc</string><string>pdt</string><string>peo</string><string>pfl</string><string>phn</string><string>pi</string><string>pl</string>
+  <string>pms</string><string>pnt</string><string>pon</string><string>pqm</string><string>prg</string><string>pro</string><string>ps</string><string>pt</string><string>qu</string><string>quc</string><string>qug</string><string>raj</string>
+  <string>rap</string><string>rar</string><string>rej</string><string>rgn</string><string>rhg</string><string>rif</string><string>rm</string><string>rn</string><string>ro</string><string>rof</string><string>rom</string><string>rtm</string>
+  <string>ru</string><string>rue</string><string>rug</string><string>rup</string><string>rw</string><string>rwk</string><string>sa</string><string>sad</string><string>sah</string><string>sam</string><string>saq</string><string>sas</string>
+  <string>sat</string><string>saz</string><string>sba</string><string>sbp</string><string>sc</string><string>scn</string><string>sco</string><string>sd</string><string>sdc</string><string>sdh</string><string>se</string><string>see</string>
+  <string>seh</string><string>sei</string><string>sel</string><string>ses</string><string>sg</string><string>sga</string><string>sgs</string><string>shi</string><string>shn</string><string>shp</string><string>shu</string><string>si</string>
+  <string>sid</string><string>sjd</string><string>sje</string><string>sju</string><string>sk</string><string>sl</string><string>sli</string><string>sly</string><string>sm</string><string>sma</string><string>smj</string><string>smn</string>
+  <string>sms</string><string>sn</string><string>snk</string><string>so</string><string>sog</string><string>sq</string><string>sr</string><string>srn</string><string>srr</string><string>srs</string><string>ss</string><string>ssy</string>
+  <string>st</string><string>stq</string><string>su</string><string>suk</string><string>sus</string><string>sux</string><string>sv</string><string>sw</string><string>swb</string><string>syc</string><string>syr</string><string>szl</string>
+  <string>ta</string><string>tcy</string><string>te</string><string>tem</string><string>teo</string><string>ter</string><string>tet</string><string>tg</string><string>th</string><string>ti</string><string>tig</string><string>tiv</string>
+  <string>tk</string><string>tkl</string><string>tkr</string><string>tlh</string><string>tli</string><string>tly</string><string>tmh</string><string>tn</string><string>to</string><string>tog</string><string>tok</string><string>tpi</string>
+  <string>tr</string><string>tru</string><string>trv</string><string>ts</string><string>tsd</string><string>tsi</string><string>tt</string><string>ttt</string><string>tum</string><string>tvl</string><string>tw</string><string>twq</string>
+  <string>ty</string><string>tyv</string><string>tzm</string><string>udm</string><string>ug</string><string>uga</string><string>uk</string><string>umb</string><string>und</string><string>ur</string><string>uz</string><string>vai</string>
+  <string>ve</string><string>vec</string><string>vep</string><string>vi</string><string>vls</string><string>vmf</string><string>vmw</string><string>vo</string><string>vot</string><string>vro</string><string>vun</string><string>wa</string>
+  <string>wae</string><string>wal</string><string>war</string><string>was</string><string>wbp</string><string>wo</string><string>wuu</string><string>xal</string><string>xh</string><string>xmf</string><string>xnr</string><string>xog</string>
+  <string>yao</string><string>yap</string><string>yav</string><string>ybb</string><string>yi</string><string>yo</string><string>yrl</string><string>yue</string><string>za</string><string>zap</string><string>zbl</string><string>zea</string>
+  <string>zen</string><string>zgh</string><string>zh</string><string>zu</string><string>zun</string><string>zxx</string><string>zza</string>
+</array>
+<key>CFBundleDisplayName</key><string>Music Filter</string>
+<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+<key>CFBundleName</key><string>Music Filter</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0.0</string>
+<key>CFBundleVersion</key><string>62</string>
+<key>LSMinimumSystemVersion</key><string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+<key>LSUIElement</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSAppleEventsUsageDescription</key><string>Music Filter reads the current song, album, and artist, and skips only the music you have excluded.</string>
+</dict></plist>

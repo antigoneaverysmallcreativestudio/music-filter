@@ -1,0 +1,53 @@
+MUSIC FILTER — TEST BUILD
+Designed by Antigone, a very small creative studio.
+
+This build is for testing on another Mac. It has a development signature and
+has not been notarized by Apple: macOS may block it from opening. It is not
+the public distribution package yet.
+
+INSTALLATION
+1. Open the disk image and drag Music Filter into Applications.
+2. Eject the disk image, then open the app from Applications.
+3. Its icon appears in the menu bar. Open Music and play a song.
+4. Allow the app to control Music when macOS asks.
+
+If you previously denied permission, enable it in System Settings > Privacy &
+Security > Automation, then quit and reopen Music Filter. Changing the permission
+alone does not yet restart the filter.
+
+USAGE
+Exclude the current song, album or artist from the menu bar icon. Artist rules
+include collaborations identified in the metadata. Manage exclusions opens
+the list and brings its window forward. Right-click an entry to remove its rule.
+
+Automatic filtering skips excluded songs when they begin.
+Filter upcoming songs remains experimental and is off by default. It requires
+Accessibility permission. Music must use French or English, with an open,
+non-minimized window and its playback queue displayed. It may be behind other
+apps. Matching upcoming songs can then be removed from this queue without
+editing the saved playlist. This does not guarantee silence during a late transition.
+
+Start with Music is enabled by default. macOS may ask you to allow background
+launching. Quit really stops the app; you can always reopen it from Applications.
+
+LANGUAGE AND COMPATIBILITY
+One application contains both languages; there is no language choice to make
+during installation. French is used only when your primary system language is
+French. Every other primary language, including Arabic, uses English, even if
+French is a secondary preference. The name stays Music Filter in all languages.
+Appearance follows the system. Your language preferences are not changed.
+Universal Intel and Apple Silicon build, targeting macOS 14 or later.
+Live checks so far: macOS 27.2.1 on Apple Silicon. Other versions and Intel
+still need live validation.
+
+DATA AND UPDATES
+No developer exclusions or preferences are included in this package.
+Your exclusions are stored locally at:
+~/Library/Application Support/Music Filter/exclusions.json
+Artwork display may send artist and album names to Apple's public services.
+No Apple account credentials are sent.
+To update, quit Music Filter and replace the app in Applications. Keep your
+local data. There is no built-in automatic updater yet.
+
+Independent project, not affiliated with Apple. Source code is covered by the
+included MIT license. That license does not transfer trademark or artwork rights.

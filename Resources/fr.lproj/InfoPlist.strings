@@ -1,0 +1,3 @@
+"CFBundleDisplayName" = "Music Filter";
+"CFBundleName" = "Music Filter";
+"NSAppleEventsUsageDescription" = "Music Filter lit le morceau, l’album et l’artiste en cours et passe au suivant uniquement lorsque vous les avez exclus.";

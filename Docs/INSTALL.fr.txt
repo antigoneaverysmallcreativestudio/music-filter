@@ -1,0 +1,58 @@
+MUSIC FILTER — VERSION D’ESSAI
+Conçu par Antigone, a very small creative studio.
+
+Cette version est destinée aux essais sur un autre Mac. Elle porte une signature
+de développement, sans notarisation Apple : macOS peut bloquer son ouverture.
+Elle n'est pas encore le paquet de diffusion publique.
+
+INSTALLATION
+1. Ouvrez le disque et glissez l’application dans Applications.
+2. Éjectez le disque, puis ouvrez l'application depuis Applications.
+3. Son icône apparaît dans la barre des menus. Ouvrez Musique et lancez un titre.
+4. Acceptez l'autorisation de contrôler Musique lorsque macOS la demande.
+
+Si vous aviez refusé cette autorisation, activez-la dans Réglages Système >
+Confidentialité et sécurité > Automatisation, puis quittez et relancez Music
+Filter. Une simple modification de l'autorisation ne relance pas encore le filtre.
+
+UTILISATION
+Excluez le morceau, l'album ou l'artiste depuis l'icône de la barre des menus.
+Exclure un artiste inclut ses collaborations identifiables dans les métadonnées.
+« Gérer les exclusions » ouvre la liste et ramène sa fenêtre au premier plan.
+Un clic droit sur une exclusion permet de la retirer.
+
+Le filtrage automatique passe les titres exclus lorsqu'ils commencent.
+Le filtrage anticipé reste expérimental et désactivé par défaut. Il demande
+l'autorisation Accessibilité. Musique doit être en français ou en anglais,
+sa fenêtre ouverte et non réduite, avec sa file d'attente affichée. Elle peut
+rester en arrière-plan. Les prochains titres exclus peuvent alors être retirés
+de cette file, sans modifier la playlist enregistrée. Ce mode ne garantit pas
+une absence totale de son lors d'une transition tardive.
+
+« Démarrer avec Musique » est activé par défaut. macOS peut demander d'autoriser
+le lancement en arrière-plan. « Quitter » arrête réellement l'application ;
+vous pouvez toujours la rouvrir depuis Applications.
+
+LANGUE ET COMPATIBILITÉ
+Une seule application contient les deux langues, sans choix à l’installation.
+Français si votre langue principale est le français ; anglais pour toute autre
+langue principale, y compris l’arabe, même si le français est une préférence
+secondaire. Le nom Music Filter reste identique dans toutes les langues.
+L’apparence claire ou sombre suit le système. Vos préférences de langue ne
+sont pas modifiées.
+Compilation universelle Intel et Apple Silicon, macOS 14 minimum.
+Vérifications réelles à ce jour : macOS 27.2.1 sur Apple Silicon. Les autres
+versions et Intel restent à valider en situation réelle.
+
+DONNÉES ET MISES À JOUR
+Le paquet ne contient aucune exclusion ni préférence du concepteur.
+Vos exclusions restent sur votre Mac, dans :
+~/Library/Application Support/Music Filter/exclusions.json
+L'affichage des pochettes peut interroger les services publics d'Apple avec
+les noms d'artistes et d'albums. Aucun compte ni identifiant Apple n'est transmis.
+Pour une mise à jour, quittez Music Filter et remplacez l'application dans
+Applications. Conservez vos données locales. Il n'y a pas encore de mise à jour
+automatique intégrée.
+
+Projet indépendant, non affilié à Apple. Code source sous licence MIT jointe.
+La licence du code ne transfère pas les droits sur les marques ou les pochettes.

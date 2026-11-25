@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	"classes" = {
+	};
+	"objectVersion" = "56";
+	"archiveVersion" = "1";
+	"objects" = {
+"F05490000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "image.pdf"; "path" = "music.hand7.pdf"; "sourceTree" = "<group>"; };
+"F0549000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F05490000000000000000001"; };
+"F05490000000000000000002" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "image.pdf"; "path" = "exclude-song.pdf"; "sourceTree" = "<group>"; };
+"F0549000000000000000000C" = { "isa" = "PBXBuildFile"; "fileRef" = "F05490000000000000000002"; };
+"F05490000000000000000003" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "image.pdf"; "path" = "exclude-artist.pdf"; "sourceTree" = "<group>"; };
+"F0549000000000000000000D" = { "isa" = "PBXBuildFile"; "fileRef" = "F05490000000000000000003"; };
+"F05490000000000000000014" = { "isa" = "PBXCopyFilesBuildPhase"; "buildActionMask" = "2147483647"; "dstPath" = "MenuBarIcons"; "dstSubfolderSpec" = "7"; "name" = "Copy menu icons"; "runOnlyForDeploymentPostprocessing" = "0"; "files" = ("F0549000000000000000000B", "F0549000000000000000000C", "F0549000000000000000000D"); };
+"F06000000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreCore/QueueRemovalConfirmation.swift"; "sourceTree" = "<group>"; };
+"F0600000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F06000000000000000000001"; };
+"F05800000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreCore/QueueScanBackoff.swift"; "sourceTree" = "<group>"; };
+"F0580000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F05800000000000000000001"; };
+"F05300000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreMusique/AboutPanel.swift"; "sourceTree" = "<group>"; };
+"F0530000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F05300000000000000000001"; };
+"F05000000000000000000002" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreMusique/MusicQueueController.swift"; "sourceTree" = "<group>"; };
+"F0500000000000000000000C" = { "isa" = "PBXBuildFile"; "fileRef" = "F05000000000000000000002"; };
+"F05000000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreCore/MusicQueueSnapshot.swift"; "sourceTree" = "<group>"; };
+"F0500000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F05000000000000000000001"; };
+"F04000000000000000000001" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreCore/MusicSessionState.swift"; "sourceTree" = "<group>"; };
+"F0400000000000000000000B" = { "isa" = "PBXBuildFile"; "fileRef" = "F04000000000000000000001"; };
+"F04000000000000000000002" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreMusique/LaunchAtLogin.swift"; "sourceTree" = "<group>"; };
+"F0400000000000000000000C" = { "isa" = "PBXBuildFile"; "fileRef" = "F04000000000000000000002"; };
+"F04000000000000000000003" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreMusique/ExclusionsWindowController.swift"; "sourceTree" = "<group>"; };
+"F0400000000000000000000D" = { "isa" = "PBXBuildFile"; "fileRef" = "F04000000000000000000003"; };
+"F04000000000000000000004" = { "isa" = "PBXFileReference"; "lastKnownFileType" = "sourcecode.swift"; "path" = "Sources/FiltreMusique/ExclusionArtworkProvider.swift"; "sourceTree" = "<group>"; };
+"F0400000000000000000000E" = { "isa" = "PBXBuildFile"; "fileRef" = "F04000000000000000000004"; };
+        "A37B4C586A97EFD832DC6411" = {
+            "isa" = "PBXGroup";
+            "path" = "Resources/MenuBarIcons";
+            "sourceTree" = "<group>";
+            "children" = ("F05490000000000000000001", "F05490000000000000000002", "F05490000000000000000003");
+        };
+		"4E819BC8F7BF81CC0A288F91" = {
+			"path" = "Sources/FiltreCore/BanStore.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"C4A482502AB3C817BAB6B8F1" = {
+			"path" = "Scripts/build.sh";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.script.sh";
+			"sourceTree" = "<group>";
+		};
+		"23FB2CAEB38545C3793097DD" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"CURRENT_PROJECT_VERSION" = "62";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"MARKETING_VERSION" = "1.0.0";
+				"INFOPLIST_FILE" = "Configuration/App-Info.plist";
+				"ENABLE_APP_SANDBOX" = "NO";
+				"PRODUCT_MODULE_NAME" = "FiltreMusique";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/App.entitlements";
+				"PRODUCT_NAME" = "Music Filter";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "dev.julienmerault.FiltreMusique";
+			};
+			"name" = "Release";
+		};
+		"D21A0BD0CDDB08E60D36F9BB" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5AD31743CE7FCB00F99D0E87";
+		};
+		"80127CAF5E7707ED2BA931B1" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "B03E078DE1AD07EE60047FE0";
+		};
+		"8C178E85489732C6EB0294EC" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "AD498D600CCAFDC6D5A4686E";
+		};
+		"877A6BA951A2EA0025A2ABE8" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"ONLY_ACTIVE_ARCH" = "YES";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"DEVELOPMENT_TEAM" = "";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = (
+					"DEBUG",
+					"$(inherited)",
+				);
+				"CLANG_ENABLE_MODULES" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"CODE_SIGN_IDENTITY" = "-";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"PROVISIONING_PROFILE_SPECIFIER" = "";
+				"ENABLE_TESTABILITY" = "YES";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "0";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"SUPPORTED_PLATFORMS" = "macosx";
+				"CODE_SIGN_STYLE" = "Manual";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"COPY_PHASE_STRIP" = "NO";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+			};
+			"name" = "Debug";
+		};
+		"29C7B681C8D62CBAC94D51C0" = {
+			"buildConfigurationList" = "6999223B144664B5601B7EE0";
+			"productReference" = "B6CDB6E5D160E013280D3C68";
+			"productType" = "com.apple.product-type.application";
+			"productName" = "Music Filter";
+			"isa" = "PBXNativeTarget";
+			"buildPhases" = (
+				"507A349611DBB42F9CF9069B",
+				"2D3446C63F9EEB9172CAE05B",
+				"4C29BBC16528FEA9E858725B",
+				"F05490000000000000000014",
+			);
+			"dependencies" = (
+			);
+			"name" = "FiltreMusique";
+			"buildRules" = (
+			);
+		};
+		"6999223B144664B5601B7EE0" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = (
+				"3CF6A4F2E05B3AAE7E2CBFEE",
+				"23FB2CAEB38545C3793097DD",
+			);
+		};
+		"B6CDB6E5D160E013280D3C68" = {
+			"path" = "Music Filter.app";
+			"isa" = "PBXFileReference";
+			"includeInIndex" = "0";
+			"explicitFileType" = "wrapper.application";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"6550EE2942CEAF5A9D580A07" = {
+			"path" = "Resources/AppIcon.icns";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "image.icns";
+			"sourceTree" = "<group>";
+		};
+		"E43D6DAB94E900CFB27C0C39" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "4E819BC8F7BF81CC0A288F91";
+		};
+		"4E2D23C95FD1BAC4CED90CF4" = {
+			"path" = "Configuration/App.entitlements";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.entitlements";
+			"sourceTree" = "<group>";
+		};
+		"D437E45AA1DBB59470A7AE07" = {
+			"path" = "Configuration/App-Info.plist";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.xml";
+			"sourceTree" = "<group>";
+		};
+		"A18593002323775AB7219BC2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6550EE2942CEAF5A9D580A07";
+		};
+		"FC8F5A85394B0D5FF7E93AFA" = {
+			"isa" = "PBXGroup";
+			"name" = "FiltreCore";
+			"children" = (
+				"F06000000000000000000001",
+				"F05800000000000000000001",
+				"4E819BC8F7BF81CC0A288F91",
+				"E759FD191305782E09A1C1E7",
+				"AD498D600CCAFDC6D5A4686E",
+				"B03E078DE1AD07EE60047FE0",
+			);
+			"sourceTree" = "<group>";
+		};
+		"959134B361DD7E21ADEA3164" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+				"DEVELOPMENT_TEAM" = "";
+				"CLANG_ENABLE_MODULES" = "YES";
+				"GCC_C_LANGUAGE_STANDARD" = "gnu17";
+				"CODE_SIGN_IDENTITY" = "-";
+				"MACOSX_DEPLOYMENT_TARGET" = "14.0";
+				"PROVISIONING_PROFILE_SPECIFIER" = "";
+				"SWIFT_COMPILATION_MODE" = "wholemodule";
+				"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+				"GCC_OPTIMIZATION_LEVEL" = "s";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"SUPPORTED_PLATFORMS" = "macosx";
+				"CODE_SIGN_STYLE" = "Manual";
+				"SDKROOT" = "macosx";
+				"SWIFT_VERSION" = "5.0";
+				"COPY_PHASE_STRIP" = "NO";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+			};
+			"name" = "Release";
+		};
+		"CF8D0BD4B75E8C2C174692A5" = {
+			"isa" = "PBXGroup";
+			"name" = "FiltreMusique";
+			"children" = (
+				"E9EFA2F154D4DE7C254B4021",
+				"FE9E5F3ACE4B2BF7C995C798",
+				"5D18C765FAC1F121D2E36534",
+				"5AD31743CE7FCB00F99D0E87",
+			);
+			"sourceTree" = "<group>";
+		};
+		"507A349611DBB42F9CF9069B" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"6D63D1C4C566F9843EBDA0D3",
+"F0400000000000000000000B",
+"F0500000000000000000000C",
+"F0500000000000000000000B",
+"F0580000000000000000000B",
+"F0600000000000000000000B",
+"F0400000000000000000000C",
+"F0400000000000000000000D",
+"F0530000000000000000000B",
+"F0400000000000000000000E",
+				"F00983C39FF6326BDF9C40BE",
+				"71A11E95171E26080ACEED34",
+				"D21A0BD0CDDB08E60D36F9BB",
+				"E43D6DAB94E900CFB27C0C39",
+				"22F922E1B9562FFA89822CEF",
+				"8C178E85489732C6EB0294EC",
+				"80127CAF5E7707ED2BA931B1",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"22F922E1B9562FFA89822CEF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E759FD191305782E09A1C1E7";
+		};
+		"3CF6A4F2E05B3AAE7E2CBFEE" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"LD_RUNPATH_SEARCH_PATHS" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				"CURRENT_PROJECT_VERSION" = "62";
+				"SWIFT_INSTALL_OBJC_HEADER" = "NO";
+				"MARKETING_VERSION" = "1.0.0";
+				"INFOPLIST_FILE" = "Configuration/App-Info.plist";
+				"ENABLE_APP_SANDBOX" = "NO";
+				"PRODUCT_MODULE_NAME" = "FiltreMusique";
+				"GENERATE_INFOPLIST_FILE" = "NO";
+				"CODE_SIGN_ENTITLEMENTS" = "Configuration/App.entitlements";
+				"PRODUCT_NAME" = "Music Filter";
+				"ENABLE_HARDENED_RUNTIME" = "YES";
+				"COMBINE_HIDPI_IMAGES" = "YES";
+				"PRODUCT_BUNDLE_IDENTIFIER" = "dev.julienmerault.FiltreMusique";
+			};
+			"name" = "Debug";
+		};
+		"E9EFA2F154D4DE7C254B4021" = {
+			"path" = "Sources/FiltreMusique/AppDelegate.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"DF891E785808226D241F246E" = {
+			"isa" = "PBXGroup";
+			"sourceTree" = "<group>";
+			"children" = (
+				"CF8D0BD4B75E8C2C174692A5",
+"F04000000000000000000001",
+"F05000000000000000000002",
+"F05000000000000000000001",
+"F04000000000000000000002",
+"F04000000000000000000003",
+"F05300000000000000000001",
+"F04000000000000000000004",
+                "A37B4C586A97EFD832DC6411",
+				"FC8F5A85394B0D5FF7E93AFA",
+				"18FD7FD8A86AE7DB07FFE101",
+				"6550EE2942CEAF5A9D580A07",
+				"C4A482502AB3C817BAB6B8F1",
+				"00C45FD35CB0F9C5F764F070",
+				"81C7B96EA3173C0C3B4C8FDC",
+			);
+		};
+		"6D63D1C4C566F9843EBDA0D3" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E9EFA2F154D4DE7C254B4021";
+		};
+		"2D3446C63F9EEB9172CAE05B" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"B03E078DE1AD07EE60047FE0" = {
+			"path" = "Sources/FiltreCore/SkipGate.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"5AD31743CE7FCB00F99D0E87" = {
+			"path" = "Sources/FiltreMusique/main.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"E759FD191305782E09A1C1E7" = {
+			"path" = "Sources/FiltreCore/MusicLink.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"71A11E95171E26080ACEED34" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "5D18C765FAC1F121D2E36534";
+		};
+		"FE9E5F3ACE4B2BF7C995C798" = {
+			"path" = "Sources/FiltreMusique/MusicController.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"00C45FD35CB0F9C5F764F070" = {
+			"isa" = "PBXGroup";
+			"name" = "Products";
+			"children" = (
+				"B6CDB6E5D160E013280D3C68",
+			);
+			"sourceTree" = "<group>";
+		};
+		"AD498D600CCAFDC6D5A4686E" = {
+			"path" = "Sources/FiltreCore/Models.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"buildConfigurationList" = "FCBE72429C0B1B8B87DC8CC9";
+			"targets" = (
+				"29C7B681C8D62CBAC94D51C0",
+			);
+			"developmentRegion" = "en";
+			"knownRegions" = (
+				"en",
+				"fr",
+				"Base",
+			);
+			"isa" = "PBXProject";
+			"compatibilityVersion" = "Xcode 14.0";
+			"productRefGroup" = "00C45FD35CB0F9C5F764F070";
+			"projectDirPath" = "";
+			"attributes" = {
+				"LastSwiftUpdateCheck" = "2700";
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "2700";
+				"TargetAttributes" = {
+					"29C7B681C8D62CBAC94D51C0" = {
+						"CreatedOnToolsVersion" = "27.2";
+					};
+				};
+			};
+			"hasScannedForEncodings" = "0";
+			"projectRoot" = "";
+			"mainGroup" = "DF891E785808226D241F246E";
+		};
+		"5D18C765FAC1F121D2E36534" = {
+			"path" = "Sources/FiltreMusique/MainViewController.swift";
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"sourceTree" = "<group>";
+		};
+		"18FD7FD8A86AE7DB07FFE101" = {
+			"isa" = "PBXGroup";
+			"name" = "Configuration";
+			"children" = (
+				"D437E45AA1DBB59470A7AE07",
+				"4E2D23C95FD1BAC4CED90CF4",
+			);
+			"sourceTree" = "<group>";
+		};
+		"FCBE72429C0B1B8B87DC8CC9" = {
+			"isa" = "XCConfigurationList";
+			"defaultConfigurationIsVisible" = "0";
+			"defaultConfigurationName" = "Release";
+			"buildConfigurations" = (
+				"877A6BA951A2EA0025A2ABE8",
+				"959134B361DD7E21ADEA3164",
+			);
+		};
+		"4C29BBC16528FEA9E858725B" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = "2147483647";
+			"files" = (
+				"A18593002323775AB7219BC2",
+				"F0F45775D3A5193F44F65DDF",
+			);
+			"runOnlyForDeploymentPostprocessing" = "0";
+		};
+		"F00983C39FF6326BDF9C40BE" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "FE9E5F3ACE4B2BF7C995C798";
+		};
+		"913AA4A2621B719617BB93D5" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "en";
+			"path" = "Resources/en.lproj/InfoPlist.strings";
+			"sourceTree" = "<group>";
+		};
+		"F3C524D7C5BE981E42A818FE" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.plist.strings";
+			"name" = "fr";
+			"path" = "Resources/fr.lproj/InfoPlist.strings";
+			"sourceTree" = "<group>";
+		};
+		"81C7B96EA3173C0C3B4C8FDC" = {
+			"isa" = "PBXVariantGroup";
+			"children" = (
+				"913AA4A2621B719617BB93D5",
+				"F3C524D7C5BE981E42A818FE",
+			);
+			"name" = "InfoPlist.strings";
+			"sourceTree" = "<group>";
+		};
+		"F0F45775D3A5193F44F65DDF" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "81C7B96EA3173C0C3B4C8FDC";
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
