@@ -6,10 +6,11 @@
 
 Apple Music recommendations can bring back songs or artists you would rather not hear. Music Filter adds a **personal exclusion list to Apple Music on your Mac**, automatically skipping the songs, albums and artists you choose. Its controls stay in the menu bar.
 
-Designed by **Antigone, a very small creative studio.**
+Designed and created by **Antigone, a very small creative studio.**
 
 <p align="center">
-  <img src="Docs/Images/music-filter-menu-contexte-fr-v1.png" width="720" alt="Music Filter menu in French, with song, album and artist exclusion actions">
+  <img src="Docs/Images/music-filter-menu-contexte-fr-v1.png" width="49%" alt="Music Filter menu in French, with song, album and artist exclusion actions">
+  <img src="Docs/Images/music-filter-reglages-contexte-fr-v1.png" width="49%" alt="Music Filter settings showing automatic filtering, experimental anticipation and Start with Music">
 </p>
 
 *Retouched demo illustrations with fictional data. French interface.*
@@ -23,11 +24,11 @@ Designed by **Antigone, a very small creative studio.**
 - **Use French or English automatically**, with light and dark appearance following your Mac.
 
 <p align="center">
-  <img src="Docs/Images/music-filter-exclusions-contexte-fr-v1.png" width="800" alt="Music Filter exclusions window in French, showing recent songs and the full exclusion list">
+  <img src="Docs/Images/music-filter-exclusions-contexte-fr-v1.png" width="100%" alt="Music Filter exclusions window in French, showing recent songs and the full exclusion list">
 </p>
 
 <p align="center">
-  <img src="Docs/Images/music-filter-recent-contexte-fr-v1.png" width="800" alt="Recent automatically excluded song and the red indicator in the menu bar">
+  <img src="Docs/Images/music-filter-recent-contexte-fr-v1.png" width="100%" alt="Recent automatically excluded song and the red indicator in the menu bar">
 </p>
 
 [Original English interface captures](Docs/Images/README.md)
@@ -55,10 +56,6 @@ French is used only when French is the Mac’s primary language. Every other pri
 Missing metadata prevents removal; an unconfirmed removal can pause anticipation. Normal filtering remains available. There is no guarantee of silence before every excluded song. Matching depends on the names and credits Music supplies, including collaboration credits.
 
 Music Filter works exclusively with the macOS Music app. It does not control iPhone or web playback, or other streaming services. Your exclusion rules stay on this Mac and are not synced to your Apple Music account. The app changes playback and, optionally, the upcoming queue, without editing your library or saved playlists. See the [user guide](Docs/USER-GUIDE.md) for permissions, daily use and experimental filtering.
-
-<p align="center">
-  <img src="Docs/Images/music-filter-reglages-contexte-fr-v1.png" width="720" alt="Music Filter settings showing automatic filtering, experimental anticipation and Start with Music">
-</p>
 
 ## Your list, your data
 
