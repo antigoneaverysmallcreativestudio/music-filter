@@ -2,7 +2,7 @@
 
 **For serious listeners who want to exclude artists, albums and songs from Apple Music.**
 
-Version **1.0.0 (build 62)** is the first release of Music Filter, an independent macOS companion for Apple Music, designed by **Antigone, a very small creative studio.**
+Version **1.0.0 (build 62)** is the first release of Music Filter, an independent macOS companion for Apple Music, designed and created by **Antigone, a very small creative studio.**
 
 Read the [user guide](USER-GUIDE.md) or the [French guide](GUIDE-UTILISATION.fr.md) for setup, backups and the experimental mode. Music Filter works with the Music app on macOS only.
 
@@ -12,19 +12,16 @@ Read the [user guide](USER-GUIDE.md) or the [French guide](GUIDE-UTILISATION.fr.
 *Illustrations de démonstration retouchées, données fictives. Interface française.*
 
 <p align="center">
-  <img src="Images/music-filter-menu-contexte-fr-v1.png" width="720" alt="Exclude a song, album or artist from Music Filter’s menu">
+  <img src="Images/music-filter-menu-contexte-fr-v1.png" width="49%" alt="Exclude a song, album or artist from Music Filter’s menu">
+  <img src="Images/music-filter-reglages-contexte-fr-v1.png" width="49%" alt="Automatic filtering and experimental anticipation settings">
 </p>
 
 <p align="center">
-  <img src="Images/music-filter-exclusions-contexte-fr-v1.png" width="800" alt="Browse recent and saved exclusions">
+  <img src="Images/music-filter-exclusions-contexte-fr-v1.png" width="100%" alt="Browse recent and saved exclusions">
 </p>
 
 <p align="center">
-  <img src="Images/music-filter-reglages-contexte-fr-v1.png" width="720" alt="Automatic filtering and experimental anticipation settings">
-</p>
-
-<p align="center">
-  <img src="Images/music-filter-recent-contexte-fr-v1.png" width="800" alt="Recently excluded song and red activity indicator">
+  <img src="Images/music-filter-recent-contexte-fr-v1.png" width="100%" alt="Recently excluded song and red activity indicator">
 </p>
 
 ## What’s included
@@ -62,7 +59,7 @@ See the [verification record](../TESTING.md). Report problems through the reposi
 
 **Pour les passionnés de musique qui veulent exclure d’Apple Music les artistes, albums et morceaux qu’ils ne souhaitent plus écouter.**
 
-Première version de Music Filter, une application macOS indépendante qui accompagne Musique, conçue par **Antigone, a very small creative studio.**
+Première version de Music Filter, une application macOS indépendante qui accompagne Musique, conçue et créée par **Antigone, a very small creative studio.**
 
 Consultez le [guide d’utilisation](GUIDE-UTILISATION.fr.md) pour la prise en main, les sauvegardes et le mode expérimental. Music Filter fonctionne uniquement avec l’application Musique sur macOS.
 
